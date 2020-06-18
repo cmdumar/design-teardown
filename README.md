@@ -13,7 +13,7 @@ This project demonstrates heatmap of the Smashing Magazine
 
 ## Live Demo
 
-[Live Demo Link](https://nostalgic-curie-b81273.netlify.app/)
+[Live Demo Link](https://relaxed-johnson-d5b2cd.netlify.app/)
 
 
 ## Getting Started
