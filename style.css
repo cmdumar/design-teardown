@@ -141,20 +141,6 @@ nav ul li:last-child {
   font-weight: bold;
 }
 
-.post-section {
-  padding-top: 7rem;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: rgba(51, 51, 51, 0.5);
-  text-align: center;
-}
-
-.post-section:hover {
-  background-color: #666;
-  transform: scale(1.05) translateY(-10px);
-  z-index: 100;
-  transition: 0.25s ease all;
-}
 .fourth-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -166,4 +152,46 @@ nav ul li:last-child {
   width:  100%;
   margin-left: 2rem;
   padding-top: 2rem;
+}
+.blue-section {
+  background-color: rgba(51, 51, 51, 0.7);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  color: white;
+}
+.blue-section h2 {
+  text-align: center;
+  font-size:10px;
+  margin-bottom: 30px;
+  
+}
+.blue-section h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  background-color: rgba(51, 51, 51, 0.5);
+  text-align: center;
+}
+.blue-section  p {
+  margin-bottom: 30px;
+  background-color: rgba(51, 51, 51, 0.3);
+}
+.blue-section img {
+  width: 50%;
+}
+.blue-section button {
+  margin-bottom: 10px;
+  background-color: rgba(51, 51, 51, 0.6);
+  border: 0;
+  padding: 20px 30px;
+  font-size: 17px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+.other-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
