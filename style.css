@@ -39,21 +39,29 @@ nav ul li:last-child {
   grid-template-rows: repeat(2, 1fr);
 }
 
+.title {
+  font-weight: bold;
+  position: absolute;
+  top: 10vh;
+  right: 25%;
+  background-color: #444;
+}
+
 .first-container article {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
-.first-container article:first-child {
+.first-container article:nth-child(2) {
   background-color: rgba(51, 51, 51, 0.6);
 }
 
-.first-container article:nth-child(2) {
+.first-container article:nth-child(3) {
   background-color: rgba(51, 51, 51, 0.5);
 }
 
-.first-container article:nth-child(3) {
+.first-container article:nth-child(4) {
   background-color: rgba(51, 51, 51, 0.55);
 }
 
@@ -85,27 +93,55 @@ nav ul li:last-child {
   z-index: 100;
   transition: 0.25s ease all;
 }
+
 .third-section {
-  display: flex;
- flex-direction: row;
+  padding: 40px;
 }
+
 .banner-section {
-  padding-top: 7rem;
-  height: 80vh;
-  width: 250rem;
-  border: solid 1px black;
-  background-color: rgba(51, 51, 51, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 0.3);
   text-align: center;
-  border-radius: 0.8rem;
+  border-radius: 14px;
+  padding: 40px;
 }
+
+.banner-section img {
+  width: 35%;
+}
+
+.banner-section h2 {
+  background-color: rgba(51, 51, 51, 0.5);
+  margin-bottom: 30px;
+}
+
+.banner-section p {
+  margin-bottom: 20px;
+  background-color: rgba(51, 51, 51, 0.3);
+}
+
+.banner-section button {
+  margin-bottom: 10px;
+  background-color: rgba(51, 51, 51, 0.6);
+  border: 0;
+  padding: 30px 20px;
+  font-size: 17px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+
 .post-section {
   padding-top: 7rem;
   padding-left: 20px;
   padding-right: 20px;
-  height: 80vh;
   background-color: rgba(51, 51, 51, 0.5);
   text-align: center;
 }
+
 .post-section:hover {
   background-color: #666;
   transform: scale(1.05) translateY(-10px);
@@ -118,6 +154,7 @@ nav ul li:last-child {
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 12px;
 }
+
 .fourth-container article {
   width:  100%;
   margin-left: 2rem;
