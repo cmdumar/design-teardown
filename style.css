@@ -273,3 +273,67 @@ nav ul li:last-child {
   border-radius: 15px;
   padding: 20px;
 }
+.sixth-container h1 {
+margin-bottom: 20px;
+background-color: rgba(51, 51, 51, 0.3);
+}
+.sixth-container p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  background-color: rgba(51, 51, 51, 0.2);
+}
+.sixth-container button {
+  margin-bottom: 20px;
+  background-color: rgba(51, 51, 51, 0.6);
+  border: 0;
+  padding: 20px 30px;
+  font-size: 17px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+.newsletter-container {
+  background-color: #ccc;
+}
+.newsletter-container img {
+  width: 50%;
+  margin-left: 30%;
+}
+.email-btn {
+  border:  0; 
+}
+.email-btn button {
+ width: 70px;
+ height: 5rem;
+}
+.email-btn input {
+  background-color: rgba(218, 212, 212, 0.2);
+  width: 10rem;
+  height: 5rem;
+  margin-left: 2rem ;
+ }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cccc;
+}
+footer h1 {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+footer ul {
+  display: flex;
+  padding-bottom: 20px;
+  
+}
+footer li {
+  padding-left: 30px;
+  padding-right: 30px ;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
