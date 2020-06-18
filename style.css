@@ -43,12 +43,19 @@ nav ul li:last-child {
   font-weight: bold;
   position: absolute;
   top: 10vh;
-  right: 25%;
+  /* right: 25%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  text-align: center;
   background-color: #444;
 }
 
 .first-container article {
-  padding-top: 60px;
+  padding-top: 100px;
   padding-right: 20px;
   padding-left: 20px;
 }
