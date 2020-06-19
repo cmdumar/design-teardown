@@ -68,14 +68,14 @@ nav ul {
   font-weight: 500;
 }
 
-footer h1 {
+footer h2 {
   font-size: 18px;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 50px;
 }
 
-.title h1 {
+.title h2 {
   text-align: center;
   background-color: #444;
 }
@@ -315,7 +315,7 @@ footer h1 {
   padding: 20px;
 }
 
-.sixth-container h1 {
+.sixth-container h2 {
   margin-bottom: 20px;
   background-color: rgba(51, 51, 51, 0.3);
 }
@@ -371,7 +371,7 @@ footer h1 {
   font-size: 18px;
 }
 
-.second-container article h1 {
+.second-container article h2 {
   padding: 0;
   width: fit-content;
   margin-bottom: 20px;
