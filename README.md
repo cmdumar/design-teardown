@@ -4,7 +4,7 @@
 
 ![screenshot](assets/screenshot.png)
 
-This project demonstrates sample usage of CSS display methods, namely grid, flex and floats.
+This project demonstrates heatmap of the Smashing Magazine
 
 ## Built With
 
@@ -13,18 +13,12 @@ This project demonstrates sample usage of CSS display methods, namely grid, flex
 
 ## Live Demo
 
-[Live Demo Link](https://nostalgic-curie-b81273.netlify.app/)
+[Live Demo Link](https://relaxed-johnson-d5b2cd.netlify.app/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running download the repository and open the index.html file with a browser of your choice.
-
-
 
 ## Authors
 
@@ -32,9 +26,9 @@ To get a local copy up and running download the repository and open the index.ht
 
 - Github: [@mohammadumar28](https://github.com/mohammadumar28)
 
-👤 **Mark Rode**
+👤 **Razika**
 
-- Github: [@m15e](https://github.com/m15e)
+- Github: [@rahalrazika](https://github.com/rahalrazika)
 
 ## 🤝 Contributing
 
@@ -48,7 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- New York Times
+- Smashing Magazine
 - The Odin Project
 
 ## 📝 License
